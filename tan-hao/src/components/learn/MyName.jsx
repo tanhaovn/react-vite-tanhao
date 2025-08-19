@@ -1,7 +1,11 @@
+import './style.css'
+
 const MyName = () => {
+  const tanhao = "Phạm Tấn Hào";
   return (
     <>
-      <div>Phạm Tấn Hào + React</div>
+      <div className="student">{tanhao} + React</div>
+      <div>Class TPM12</div>
     </>
   );
 }
