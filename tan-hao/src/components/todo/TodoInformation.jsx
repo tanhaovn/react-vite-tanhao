@@ -1,11 +1,14 @@
 import React from "react";
 
-const TodoInformation = () => {
+const TodoInformation = (props) => {
+  const { myName, address } = props;
+  console.log(props);
   return (
     <>
       <div className="information">
         <div>Học React</div>
-        <div>Tấn Hào</div>
+        <div>Tên tôi là {myName.name}</div>
+        <div>Quên tôi ở {address}</div>
       </div>
     </>
   );
