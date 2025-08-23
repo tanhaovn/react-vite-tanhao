@@ -15,7 +15,7 @@ const App = () => {
       <div className="container">
         <div className="title">Danh Sách</div>
         <TodoAdd />
-        <TodoInformation myName={myName} address={address}/>
+        <TodoInformation myName={myName} address={address} />
         <div className="img">
           <img src={Imgage} />
         </div>
